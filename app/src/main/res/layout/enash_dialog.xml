@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundmain"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/backgroundcolor">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center"
+            android:text="@string/successfull"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imageViewClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:background="@mipmap/close" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/textViewDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutHeading">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/consent_drawable"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.95"
+                android:fontFamily="@font/opensans_light"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="Sponsor Bank:"
+                android:textColor="@color/textcolor"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/imageViewSponsorBank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight=".05" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/consent_drawable"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.95"
+                android:fontFamily="@font/opensans_light"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="@string/utility_code"
+                android:textColor="@color/textcolor"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/imageViewUtilityCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight=".05" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/consent_drawable"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.95"
+                android:fontFamily="@font/opensans_light"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="@string/bank_live_on_nach"
+                android:textColor="@color/textcolor"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/imageViewBankLiveOnNACH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight=".05"
+                android:background="@mipmap/tick_icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/consent_drawable"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.95"
+                android:fontFamily="@font/opensans_light"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="@string/bank_live_on_Enach"
+                android:textColor="@color/textcolor"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/imageViewBankLiveOnENACH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight=".05" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/consent_drawable"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.95"
+                android:fontFamily="@font/opensans_light"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="@string/amount_enach_max_trx_value"
+                android:textColor="@color/textcolor"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/imageViewAmountMax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight=".05" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/consent_drawable"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.65"
+                android:fontFamily="@font/opensans_light"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="@string/todateisMandatory"
+                android:textColor="@color/textcolor"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/imageViewTodateEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight=".25"
+                android:drawableLeft="@mipmap/doc_edit_black"
+                android:gravity="center"
+                android:text="@string/edit" />
+
+            <ImageView
+                android:id="@+id/imageViewTodateSsMandatory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight=".05" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/consent_drawable"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.95"
+                android:fontFamily="@font/opensans_light"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="@string/single_signatory"
+                android:textColor="@color/textcolor"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/imageViewSingleSignatory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight=".05" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDo">
+
+            <com.quickcheck.CustomButtonRegular
+                android:id="@+id/buttonPhysical"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_ripple_effect"
+                android:fontFamily="@font/opensans_bold"
+                android:gravity="center"
+                android:text="Physical"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <com.quickcheck.CustomButtonRegular
+                android:id="@+id/butonEnach"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_ripple_effect"
+                android:fontFamily="@font/opensans_bold"
+                android:gravity="center"
+                android:text="Enach"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

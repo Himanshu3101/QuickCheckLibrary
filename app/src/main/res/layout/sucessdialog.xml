@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundmain"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/backgroundcolor"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center"
+            android:text="@string/account_validation"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:fontFamily="@font/opensans_light"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="Name as per Form :"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_nameasform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:fontFamily="@font/opensans_light"
+            android:gravity="left"
+            android:text="Name as per Form :"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_greatertwenty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="Name validation up to 20 charecters PLease recheck again. :"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:fontFamily="@font/opensans_light"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="Number of Charecters :"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_charecternumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:fontFamily="@font/opensans_light"
+            android:gravity="left"
+            android:text="Name as per Form :"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:fontFamily="@font/opensans_light"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="Name as per bank :"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_nameasperbank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:fontFamily="@font/opensans_light"
+            android:gravity="left"
+            android:text="Name as per Form :"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ly_banknameequal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:fontFamily="@font/opensans_light"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="Name as per Form :"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_banknameequal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:fontFamily="@font/opensans_light"
+            android:gravity="left"
+            android:text="Name as per Form :"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:fontFamily="@font/opensans_light"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="Number of charecters :"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_numberbankcharecters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:fontFamily="@font/opensans_light"
+            android:gravity="left"
+            android:text="Name as per Form :"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_nameequals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:fontFamily="@font/opensans_light"
+            android:gravity="center"
+            android:text="Name as per bank :"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_nameequals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:fontFamily="@font/opensans_light"
+            android:gravity="left"
+            android:text="Name as per Form :"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="left"
+        android:text="Proceed As Per"
+        android:textColor="@color/textcolor"
+        android:textSize="15dp" />
+
+    <RadioGroup
+        android:id="@+id/rdg_proceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/rb_suceesmandate"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:buttonTint="@color/textcolor"
+            android:checked="false"
+            android:text="Mandate Name"
+            android:textColor="@color/textcolor"
+            android:textSize="13dp" />
+
+        <RadioButton
+            android:id="@+id/rb_sucessbankname"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:buttonTint="@color/textcolor"
+            android:checked="false"
+            android:text="Bank Name"
+            android:textColor="@color/textcolor"
+            android:textSize="13dp" />
+    </RadioGroup>
+
+    <com.quickcheck.CustomButtonRegular
+        android:id="@+id/tv_savemandateform"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/buttonColor"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center"
+        android:text="Save"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#80ed1c24</color>//for top layer
+    <color name="colorPrimaryDark">#ed1c24</color>
+    <color name="colorAccent">#ed1c24</color>
+    <color name="backgroundcolor">#ed1c24</color>
+    <color name="buttonColor">#003975</color>
+    <color name="transparentbuttonColor">#96003975</color>
+    <color name="darker_gray">#888888</color>
+    <color name="navigation_color">#ece2e2</color>
+
+    <color name="textcolor">#3e3e3e</color>
+    <color name="backgroundmain">#F6F1F1</color>
+    <color name="colorblack">#111111</color>
+    <color name="colorgrey">#BDB76B</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#ececec</color>
+    <color name="lightblack">#393939</color>
+    <color name="LTGRAY">#cccccc</color>
+    <color name="gray_btn">#D0D0D0</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+
+</resources>

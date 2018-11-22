@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundmain">
+
+    <ListView
+        android:id="@+id/li_sponserbanklist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/textcolor"
+        android:layout_margin="7dp"
+        android:dividerHeight="1dp"></ListView>
+</LinearLayout>

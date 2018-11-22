@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundmain"
+    android:orientation="vertical">
+
+    <com.quickcheck.model.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/opensans_bold"
+                    android:gravity="left"
+                    android:padding="7dp"
+                    android:text="@string/reference_no"
+                    android:textColor="@color/textcolor" />
+
+                <TextView
+                    android:id="@+id/tv_getmanreferenceno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/opensans_light"
+                    android:gravity="left"
+                    android:padding="7dp"
+                    android:text="Reference No.:"
+                    android:textColor="@color/textcolor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/opensans_bold"
+                    android:gravity="left"
+                    android:padding="7dp"
+                    android:text="@string/mandate_type"
+                    android:textColor="@color/textcolor" />
+
+                <TextView
+                    android:id="@+id/tv_getmandatebankname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/opensans_light"
+                    android:gravity="left"
+                    android:padding="7dp"
+                    android:text=""
+                    android:textColor="@color/textcolor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/opensans_bold"
+                    android:gravity="left"
+                    android:padding="7dp"
+                    android:text="@string/creation_date"
+                    android:textColor="@color/textcolor" />
+
+                <TextView
+                    android:id="@+id/tv_getmandateifsc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/opensans_light"
+                    android:gravity="left"
+                    android:padding="7dp"
+                    android:text="ifsc/micr:"
+                    android:textColor="@color/textcolor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/opensans_bold"
+                    android:gravity="left"
+                    android:padding="7dp"
+                    android:text="@string/updation_date"
+                    android:textColor="@color/textcolor" />
+
+                <TextView
+                    android:id="@+id/tv_getmandatecustomername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/opensans_light"
+                    android:gravity="left"
+                    android:padding="7dp"
+                    android:text=""
+                    android:textColor="@color/textcolor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/opensans_bold"
+                    android:gravity="left"
+                    android:padding="7dp"
+                    android:text="@string/status"
+                    android:textColor="@color/textcolor" />
+
+                <TextView
+                    android:id="@+id/tv_getmandatedate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/opensans_light"
+                    android:gravity="left"
+                    android:padding="7dp"
+                    android:text="Date"
+                    android:textColor="@color/textcolor" />
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight=".5"-->
+            <!--android:fontFamily="@font/opensans_bold"-->
+            <!--android:gravity="right"-->
+            <!--android:padding="7dp"-->
+            <!--android:text="Mandate Upload:"-->
+            <!--android:textColor="@color/textcolor" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_getmandateupload"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight=".5"-->
+            <!--android:fontFamily="@font/opensans_light"-->
+            <!--android:gravity="left"-->
+            <!--android:padding="7dp"-->
+            <!--android:text="mandate upload"-->
+            <!--android:textColor="@color/textcolor" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight=".5"-->
+            <!--android:fontFamily="@font/opensans_bold"-->
+            <!--android:gravity="right"-->
+            <!--android:padding="7dp"-->
+            <!--android:text="Status"-->
+            <!--android:textColor="@color/textcolor" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_getmandatestatus"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight=".5"-->
+            <!--android:fontFamily="@font/opensans_light"-->
+            <!--android:gravity="left"-->
+            <!--android:padding="7dp"-->
+            <!--android:text="status"-->
+            <!--android:textColor="@color/textcolor" />-->
+            <!--</LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:id="@+id/tv_gatemandateedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@color/buttonColor"
+                    android:gravity="center"
+                    android:padding="7dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@mipmap/edit_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/opensans_light"
+                        android:text="@string/edit"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tv_getmandateuploadfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@color/buttonColor"
+                    android:gravity="center"
+                    android:padding="7dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@mipmap/upload_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/opensans_light"
+                        android:gravity="center"
+                        android:text="@string/upload"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tv_getmandatedownload"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@color/buttonColor"
+                    android:gravity="center"
+                    android:padding="7dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@mipmap/download_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/opensans_light"
+                        android:gravity="center"
+                        android:text="@string/download"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.quickcheck.model.CardView>
+</LinearLayout>
